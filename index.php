@@ -608,7 +608,7 @@
                     });
                 }
                 $(document).on("submit", "#frmQuieroParaMiKia", function (e) {
-                    var url = "sendmail"; // the script where you handle the form input.
+                    var url = "sendmail.php"; // the script where you handle the form input.
                     $.ajax({
                         type: "POST",
                         url: url,
