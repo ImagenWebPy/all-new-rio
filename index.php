@@ -1,6 +1,3 @@
-<?php
-include 'config.php';
-?>
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -31,7 +28,7 @@ include 'config.php';
                             <span class="icon-bar"></span>
                         </button>
                         <a href="#home" class="brand js-target-scroll">
-                            <img src="<?= URL; ?>img/brand.png" alt="All-New-Rio" style="width: 30%;">
+                            <img src="img/brand.png" alt="All-New-Rio" style="width: 30%;">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -57,13 +54,13 @@ include 'config.php';
                     <div id="rev_slider" class="rev_slider fullscreenbanner" data-version="5.0.7">
                         <ul>
                             <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-fstransition="fade" data-fsmasterspeed="1000">
-                                <img src="<?= URL; ?>img/slider/all-new-rio-1.jpg" alt data-lazyload="<?= URL; ?>img/slider/all-new-rio-1.jpg" data-bgposition="center top" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" class="rev-slidebg" data-no-retina>
+                                <img src="img/slider/all-new-rio-1.jpg" alt data-lazyload="img/slider/all-new-rio-1.jpg" data-bgposition="center top" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" class="rev-slidebg" data-no-retina>
                             </li>
                             <li data-transition="zoomout" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000">
-                                <img src="<?= URL; ?>img/slider/all-new-rio-3.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                                <img src="img/slider/all-new-rio-3.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
                             </li>
                             <li data-transition="zoomout" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000">
-                                <img src="<?= URL; ?>img/slider/all-new-rio-2.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+                                <img src="img/slider/all-new-rio-2.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
                             </li>
                         </ul>
                     </div>
@@ -94,7 +91,7 @@ include 'config.php';
                             <div class="row row-columns">
                                 <div class="service-column column col-md-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                     <span class="icon-circle">
-                                        <img src="<?= URL; ?>img/espacio.png" class="img-responsive">
+                                        <img src="img/espacio.png" class="img-responsive">
                                     </span>
                                     <h3 class="entry">Espacio</h3>
                                     <div class="spacer">
@@ -108,7 +105,7 @@ include 'config.php';
                                 </div>
                                 <div class="service-column column col-md-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
-                                        <img src="<?= URL; ?>img/seguridad.png" class="img-responsive">
+                                        <img src="img/seguridad.png" class="img-responsive">
                                     </span>
                                     <h3 class="entry">Seguridad</h3>
                                     <div class="spacer">
@@ -122,7 +119,7 @@ include 'config.php';
                                 </div>
                                 <div class="service-column column col-md-4 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
-                                        <img src="<?= URL; ?>img/estilo.png" class="img-responsive" >
+                                        <img src="img/estilo.png" class="img-responsive" >
                                     </span>
                                     <h3 class="entry">Estilo</h3>
                                     <div class="spacer">
@@ -611,7 +608,7 @@ include 'config.php';
                     });
                 }
                 $(document).on("submit", "#frmQuieroParaMiKia", function (e) {
-                    var url = "<?= URL ?>sendmail"; // the script where you handle the form input.
+                    var url = "sendmail"; // the script where you handle the form input.
                     $.ajax({
                         type: "POST",
                         url: url,

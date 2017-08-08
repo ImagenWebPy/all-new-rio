@@ -1,7 +1,6 @@
 <?php
 
 $data = array();
-echo 'entro en la pagina';
 function cleanInput($data) {
     $data = trim($data);
     $data = str_replace("'", "\'", $data);
@@ -20,7 +19,6 @@ function sendMail($para, $asunto, $mensaje) {
 }
 
 if (!empty($_POST)) {
-    echo 'entro en el post';
     $para = 'raul.ramirez@garden.com.py';
     $asunto = 'Formulario Landing Page All-New Rio';
     $nombre = cleanInput($_POST['nombre']);
@@ -53,7 +51,7 @@ if (!empty($_POST)) {
                         <td>' . $mensaje . '</td>
                     </tr>
                 </table>';
-    //sendMail($para, $asunto, $content);
+    sendMail($para, $asunto, $content);
     $data = array(
         'type' => 'success'
     );
