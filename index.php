@@ -101,7 +101,7 @@
                                             <div class="dot"></div>
                                         </div>
                                     </div>
-                                    <p class="small text-muted">Asientos traseros rebatibles<br>Espacio separado para el celular<br>Tablero completamente optimizado<br>Pantalla LCD 5.0" + USB  + AUX + BLUETOOH</p>
+                                    <p class="small text-muted">Espacio separado para el celular<br>Tablero completamente optimizado<br>Pantalla LCD 5.0" + USB  + AUX + BLUETOOH</p>
                                 </div>
                                 <div class="service-column column col-md-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
@@ -246,6 +246,7 @@
                                         <div class="dot"></div>
                                     </div>
                                 </div>
+                                <img src="img/kia-rio-rojo.png">
                             </header>
                         </div>
                         <div class="section-content">
@@ -301,10 +302,8 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
-                                                <li class="especificaciones">&nbsp;</li>
-                                                <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 14.800</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 15.600</a>
                                         </div>
                                     </div>
                                 </div>
@@ -358,7 +357,7 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 14.800</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 18.000</a>
                                         </div>
                                     </div>
                                 </div>
@@ -410,7 +409,7 @@
                                                 <li class="especificaciones">Faros delanteros halógenos de doble proyección</li>
                                                 <li class="especificaciones">Frenos ABS</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 14.800</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 19.200</a>
                                         </div>
                                     </div>
                                 </div>

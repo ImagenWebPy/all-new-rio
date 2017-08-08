@@ -29,7 +29,8 @@ function sendMail($para, $asunto, $mensaje) {
 }
 
 if (!empty($_POST)) {
-    $para = 'raul.ramirez@garden.com.py';
+    //$para = 'raul.ramirez@garden.com.py';
+    $para = 'dabenitez@garden.com.py';
     $asunto = 'Formulario Landing Page All-New Rio';
     $nombre = cleanInput($_POST['nombre']);
     $email = cleanInput($_POST['email']);
