@@ -442,7 +442,7 @@
                                             <input type="text" class="form-control form-control-white" name="nombre" required placeholder="Nombre *">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-white" name="email" required placeholder="Email *">
+                                            <input type="email" class="form-control form-control-white" name="email" required placeholder="Email *">
                                         </div>
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-white" name="telefono" required placeholder="Teléfono *">
@@ -618,6 +618,10 @@
                         {
                             if (data['type'] == 'success') {
                                 $("#success").modal("toggle");
+                                $("input[name=nombre]").val("");
+                                $("input[name=email]").val("");
+                                $("input[name=telefono]").val("");
+                                $("textarea[name=mensaje]").val("");
                             }
                         }
                     });
