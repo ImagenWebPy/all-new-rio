@@ -14,6 +14,7 @@ include 'config.php';
         <link href="https://fonts.googleapis.com/css?family=Hind:400,500,600,700" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" media="screen">
         <link href="css/custom.css" rel="stylesheet" media="screen">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <div class="layout">
@@ -498,7 +499,24 @@ include 'config.php';
                 </div>
             </div>
         </div>
-
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.viewport.js"></script>
@@ -598,6 +616,7 @@ include 'config.php';
                         type: "POST",
                         url: url,
                         data: $("#frmQuieroParaMiKia").serialize(), // serializes the form's elements.
+                        dataType: "json",
                         success: function (data)
                         {
                             if (data['type'] == 'success') {

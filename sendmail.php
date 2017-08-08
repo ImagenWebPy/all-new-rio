@@ -52,7 +52,7 @@ if (!empty($_POST)) {
                         <td>' . $mensaje . '</td>
                     </tr>
                 </table>';
-    sendMail($para, $asunto, $content);
+    //sendMail($para, $asunto, $content);
     $data = array(
         'type' => 'success'
     );
