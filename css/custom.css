@@ -1,3 +1,19 @@
 .especificaciones{font-style: italic; margin: 0px !important; text-align: left; color: #7a7979; font-weight: 800;}
 .espacio {border: 2px solid #ca2323;}
 .selectText{ color: #000;}
+.bgEspacio { background: #3d91cd; padding: 10px;}
+.bgEspacio h3{ color: #fff;}
+.bgEspacio .text-muted{ color: #fff;}
+.bgSeguridad { background: #EB923D; padding: 10px;}
+.bgSeguridad h3{ color: #fff;}
+.bgSeguridad .text-muted{ color: #fff;}
+.bgEstilo { background: #DF4453; padding: 10px;}
+.bgEstilo h3{ color: #fff;}
+.bgEstilo .text-muted{ color: #fff;}
+.espec{ font-weight: bold; color: red;}
+.btn-light-vendedor{ background: #094b7e; border-color: #094b7e;}
+.btnSizePrice{ font-size: 18px;}
+.footer-white {position: relative; background: #fff; height: 30px;}
+.logoFooter {position: absolute; top: -33px; right: 20px;}
+.textFooter{ font-size: 9px; line-height: 1;}
+.copy { font-size: 12px;}

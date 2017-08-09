@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>All New Rio</title>
+        <title>Kia - All New Rio</title>
         <link rel="shortcut icon" href="favicon.png">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
@@ -71,7 +71,7 @@
                     <div class="container">
                         <div class="row">
                             <header class="col-md-8 col-md-offset-2">
-                                <h2 class="section-title">Más grande, más audaz y listo para la aventura</h2>
+                                <h2 class="section-title" style="text-align: center;">Más grande, más audaz y listo para la aventura</h2>
                                 <div class="spacer spacer-primary">
                                     <div class="line">
                                         <div class="dot"></div>
@@ -82,14 +82,14 @@
                                 <p>Prepárese para la emoción. Con nueva apariencia, mayor espacio interior y
                                     rendimiento dinámico, el All New Kia Rio tiene encanto que se intensifica
                                     cuando usted se pone detrás del volante. Es más que un auto para la
-                                    ciudad. Es un compañero de viaje de todos los días.</p>
+                                    ciudad, es un compañero de viaje de todos los días.</p>
                             </header>
                         </div>
                     </div>
                     <div class="section-content">
                         <div class="container">
                             <div class="row row-columns">
-                                <div class="service-column column col-md-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                <div class="service-column column col-md-4 wow fadeInUp bgEspacio" style="visibility: visible; animation-name: fadeInUp;">
                                     <span class="icon-circle">
                                         <img src="img/espacio.png" class="img-responsive">
                                     </span>
@@ -103,7 +103,7 @@
                                     </div>
                                     <p class="small text-muted">Espacio separado para el celular<br>Tablero completamente optimizado<br>Pantalla LCD 5.0" + USB  + AUX + BLUETOOH</p>
                                 </div>
-                                <div class="service-column column col-md-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="service-column column col-md-4 wow fadeInUp bgSeguridad" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
                                         <img src="img/seguridad.png" class="img-responsive">
                                     </span>
@@ -117,7 +117,7 @@
                                     </div>
                                     <p class="small text-muted">Airbag conductor + pasajero<br>Reducción de sonido de cabina<br>Frenos ABS<br>Luces LED condición diurna.</p>
                                 </div>
-                                <div class="service-column column col-md-4 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <div class="service-column column col-md-4 wow fadeInUp bgEstilo" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
                                         <img src="img/estilo.png" class="img-responsive" >
                                     </span>
@@ -135,7 +135,6 @@
                         </div>
                     </div>
                 </section>
-
                 <section id="about" class="about section pb-0">
                     <div class="section-content">
                         <div class="row-about bgc-light clearfix">
@@ -175,9 +174,8 @@
                                                 </span>
                                             </div>
                                             <div class="media-right">
-                                                <h4 class="icon-title">Control de crucero automático </h4>
-                                                <p>La función de crucero automático se puede activar por medio de los controles
-                                                    montados en el volante, facilitando el ajuste de la velocidad que desea de manera segura. </p>
+                                                <h4 class="icon-title">50.5% Acero de avanzada tecnología</h4>
+                                                <p>El All-New Rio emplea más del 50% de Acero Avanzado de Alta Resistencia (AHSS), un 54% más que el modelo anterior. Esto da como resultado en una rigidez fenomenal de la carrocería y el aumento de protección en cabina así como un rendimiento más dinámico.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +186,7 @@
                             <div class="bg-about-2 bg-right-fluid col-md-6"></div>
                             <div class="col-about-left col-md-5 col-md-offset-1">
                                 <h2 class="about-title">Deslícese por el aire Navegue entre el tráfico</h2>
-                                <p>Las líneas sinuosas del all-new Rio ayudan a engañar al viento
+                                <p>Las líneas sinuosas del All-New Rio ayudan a engañar al viento
                                     aumentando la economía de combustible. Su manejo ágil lo convierte
                                     en un vehículo ideal para los giros rápidos y desvíos inesperados que
                                     suelen ser parte de la vida urbana. </p>
@@ -246,7 +244,7 @@
                                         <div class="dot"></div>
                                     </div>
                                 </div>
-                                <img src="img/kia-rio-rojo.png">
+                                <img src="img/kia-rio-rojo.png" class="img-responsive">
                             </header>
                         </div>
                         <div class="section-content">
@@ -258,15 +256,15 @@
                                         </div>
                                         <div class="price-features">
                                             <ul>
-                                                <li>Motor: 1.400 C.C.</li>
-                                                <li>Sistema de inyección: Inyección multipunto (MPI)</li>
-                                                <li>Sistema de válvulas: D-CVVT 16 válvulas</li>
-                                                <li>Potencia max: 98 HP</li>
-                                                <li>Combustible: Nafta</li>
-                                                <li>Transmisión: MT 6 velocidades</li>
-                                                <li>Sistema de frenos: Delanteros a disco y traseros a tambor</li>
-                                                <li>Cubiertas: Acero - R15</li>
-                                                <li>Tapizado: Pana</li>
+                                                <li><span class="espec">Motor:</span> 1.400 C.C.</li>
+                                                <li><span class="espec">Sistema de inyección:</span> Inyección multipunto (MPI)</li>
+                                                <li><span class="espec">Sistema de válvulas:</span> D-CVVT 16 válvulas</li>
+                                                <li><span class="espec">Potencia max:</span> 98 HP</li>
+                                                <li><span class="espec">Combustible:</span> Nafta</li>
+                                                <li><span class="espec">Transmisión:</span> MT 6 velocidades</li>
+                                                <li><span class="espec">Sistema de frenos:</span> Delanteros a disco y traseros a tambor</li>
+                                                <li><span class="espec">Cubiertas:</span> Acero - R15</li>
+                                                <li><span class="espec">Tapizado:</span> Pana</li>
                                             </ul>
                                             <ul>
                                                 <li class="especificaciones">Dirección Electroasistida</li>
@@ -303,7 +301,8 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 15.600</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 15.600</a>
+                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
                                         </div>
                                     </div>
                                 </div>
@@ -314,15 +313,15 @@
                                         </div>
                                         <div class="price-features">
                                             <ul>
-                                                <li>Motor: 1.400 C.C.</li>
-                                                <li>Sistema de inyección: Inyección multipunto (MPI)</li>
-                                                <li>Sistema de válvulas: D-CVVT 16 válvulas</li>
-                                                <li>Potencia max: 98 HP</li>
-                                                <li>Combustible: Nafta</li>
-                                                <li>Transmisión: AT 6 velocidades</li>
-                                                <li>Sistema de frenos: Delanteros a disco y traseros a tambor</li>
-                                                <li>Cubiertas: Acero - R15</li>
-                                                <li>Tapizado: Pana</li>
+                                                <li><span class="espec">Motor:</span> 1.400 C.C.</li>
+                                                <li><span class="espec">Sistema de inyección:</span> Inyección multipunto (MPI)</li>
+                                                <li><span class="espec">Sistema de válvulas:</span> D-CVVT 16 válvulas</li>
+                                                <li><span class="espec">Potencia max:</span> 98 HP</li>
+                                                <li><span class="espec">Combustible:</span> Nafta</li>
+                                                <li><span class="espec">Transmisión:</span> AT 6 velocidades</li>
+                                                <li><span class="espec">Sistema de frenos:</span> Delanteros a disco y traseros a tambor</li>
+                                                <li><span class="espec">Cubiertas:</span> Aleación - R15</li>
+                                                <li><span class="espec">Tapizado:</span> Pana</li>
                                             </ul>
                                             <ul>
                                                 <li class="especificaciones">Dirección Electroasistida</li>
@@ -357,7 +356,8 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 18.000</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 18.000</a>
+                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
                                         </div>
                                     </div>
                                 </div>
@@ -368,15 +368,15 @@
                                         </div>
                                         <div class="price-features">
                                             <ul>
-                                                <li>Motor: 1.400 C.C.</li>
-                                                <li>Sistema de inyección: Inyección multipunto (MPI)</li>
-                                                <li>Sistema de válvulas: D-CVVT 16 válvulas</li>
-                                                <li>Potencia max: 98 HP</li>
-                                                <li>Combustible: Nafta</li>
-                                                <li>Transmisión: MT 6 velocidades</li>
-                                                <li>Sistema de frenos: Delanteros a disco y traseros a tambor</li>
-                                                <li>Cubiertas: Acero - R15</li>
-                                                <li>Tapizado: Pana</li>
+                                                <li><span class="espec">Motor:</span> 1.400 C.C.</li>
+                                                <li><span class="espec">Sistema de inyección:</span> Inyección multipunto (MPI)</li>
+                                                <li><span class="espec">Sistema de válvulas:</span> D-CVVT 16 válvulas</li>
+                                                <li><span class="espec">Potencia max:</span> 98 HP</li>
+                                                <li><span class="espec">Combustible:</span> Nafta</li>
+                                                <li><span class="espec">Transmisión:</span> MT 6 velocidades</li>
+                                                <li><span class="espec">Sistema de frenos:</span> Delanteros a disco y traseros a tambor</li>
+                                                <li><span class="espec">Cubiertas:</span> Aleación - R15</li>
+                                                <li><span class="espec">Tapizado:</span> Pana</li>
                                             </ul>
                                             <ul>
                                                 <li class="especificaciones">Dirección Electroasistida</li>
@@ -409,7 +409,8 @@
                                                 <li class="especificaciones">Faros delanteros halógenos de doble proyección</li>
                                                 <li class="especificaciones">Frenos ABS</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow">U$ 19.200</a>
+                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 19.200</a>
+                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,8 +471,26 @@
                 <footer id="footer" class="footer text-white">
                     <div class="footer-bottom">
                         <div class="container">
-                            <div class="copy">
-                                © Desarrollado por <a href="mailto:raul.ramirez@garden.com.py" target="_blank">Garden MKT</a>
+                            <div class="col-xs-9">
+                                <div class="col-xs-3">
+                                    <div class="logoGarden">
+                                        <a href="http://www.garden.com.py/" target="_blank"><img src="img/logo-garden.png" alt="Garden" class="img-responsive"></a>
+                                    </div>
+                                    <div class="copy">
+                                        © Desarrollado por <a href="mailto:raul.ramirez@garden.com.py" target="_blank">Garden MKT</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="textFooter">Asunción: Casa Central:<br>
+                                        (021) 237 – 7090 | Rca. Argentina esq. Isaac Kostianovsky.<br>
+                                        Sucursal 1 (021) 237 – 7095 Fernando de la Mora esq. De la Victoria.<br>
+                                        Sucursal 2 (021) 237 – 7110 Avda. Fernando de la Mora esq. Ybapuru.<br><br>
+                                        Centro de Servicios y Repuestos KIA – (021) 237 – 7095 <br>
+                                        Fernando de la Mora esq. De la Victoria.<br><br>
+                                        Encarnación: (071) 206701 / (071) 206702 | Avda. Caballero esq. Artigas.<br><br>
+                                        Ciudad del Este: (061) 574005/9 | Ruta Internacional Nro. 7, km 6,5. <br>
+                                        (021) 237 – 6910 Avda. San Blas esq. O´higgins</p>
+                                </div>
                             </div>
                             <div class="social">
                                 <a href="https://www.facebook.com/KiaParaguay/" class="fa fa-facebook"></a>
@@ -480,6 +499,9 @@
                                 <a href="https://www.youtube.com/user/KiaBUZZ" class="fa fa-youtube-play"></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="footer-white col-md-12">
+                        <img class="logoFooter" src="img/logo_footer.png" alt="kia logo footer">
                     </div>
                 </footer>
             </div>
@@ -491,24 +513,6 @@
                         <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
                         <h2 class="modal-title">Gracias</h2>
                         <p class="modal-subtitle">Se ha enviado tu mensaje. Nos estaremos poniendo en contacto contigo...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
