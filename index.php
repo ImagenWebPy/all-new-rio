@@ -414,8 +414,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -467,7 +465,6 @@
                         </div>
                     </div>
                 </section>
-
                 <footer id="footer" class="footer text-white">
                     <div class="footer-bottom">
                         <div class="container">
@@ -531,10 +528,8 @@
         <script src="js/imagesloaded.pkgd.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/interface.js"></script>
-
         <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
         <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
-
         <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
         <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
         <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
@@ -633,6 +628,4 @@
             });
         </script>
     </body>
-
-    <!-- Mirrored from paul-themes.com/html/revo-landing/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Aug 2017 13:47:52 GMT -->
 </html>
