@@ -28,23 +28,18 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a href="#home" class="brand js-target-scroll">
-                            <img src="img/brand.png" alt="All-New-Rio" style="width: 30%;">
+                            <img src="img/brand.png" alt="All-New-Rio" style="width: 70px;">
+                            <span class="separadorLogo">|</span>
+                            <img src="img/Logo-All-New-RIO.png" alt="All-New-Rio" style="width: 70px;">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="#inicio" class="js-target-scroll">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="#espeficicaciones" class="js-target-scroll">Especificaciones</a>
-                            </li>
-                            <li>
-                                <a href="#versiones" class="js-target-scroll">Versiones</a>
-                            </li>
-                            <li>
-                                <a href="#contacto" class="js-target-scroll">¡Estoy Interesado!</a>
-                            </li>
+                            <li class="active"><a href="#inicio" class="js-target-scroll">Inicio</a></li>
+                            <li><a href="#espeficicaciones" class="js-target-scroll">Especificaciones</a></li>
+                            <li><a href="#colores" class="js-target-scroll">Colores</a></li>
+                            <li><a href="#versiones" class="js-target-scroll">Versiones</a></li>
+                            <li><a href="#contacto" class="js-target-scroll">¡Estoy Interesado!</a></li>
                         </ul>
                     </div>
                 </div>
@@ -53,11 +48,11 @@
                 <div class="rev_slider_wrapper">
                     <div id="rev_slider" class="rev_slider fullscreenbanner" data-version="5.0.7">
                         <ul>
-                            <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-fstransition="fade" data-fsmasterspeed="1000">
-                                <img src="img/slider/all-new-rio-1.jpg" alt data-lazyload="img/slider/all-new-rio-1.jpg" data-bgposition="center top" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" class="rev-slidebg" data-no-retina>
-                            </li>
-                            <li data-transition="zoomout" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000">
+                            <li data-transition="zoomout" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000">
                                 <img src="img/slider/all-new-rio-3.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                            </li>
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-fstransition="fade" data-fsmasterspeed="2000">
+                                <img src="img/slider/all-new-rio-1.jpg" alt data-lazyload="img/slider/all-new-rio-1.jpg" data-bgposition="center top" data-kenburns="on" data-duration="20000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" class="rev-slidebg" data-no-retina>
                             </li>
                             <li data-transition="zoomout" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000">
                                 <img src="img/slider/all-new-rio-2.jpg" alt data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
@@ -101,7 +96,7 @@
                                             <div class="dot"></div>
                                         </div>
                                     </div>
-                                    <p class="small text-muted">Espacio separado para el celular<br>Tablero completamente optimizado<br>Pantalla LCD 5.0" + USB  + AUX + BLUETOOH</p>
+                                    <p class="small text-muted">Espacio separado para el celular<br>Tablero completamente optimizado<br>Pantalla LCD 5.0" + USB  + AUX + BLUETOOH<br><br></p>
                                 </div>
                                 <div class="service-column column col-md-4 wow fadeInUp bgSeguridad" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                     <span class="icon-circle">
@@ -129,7 +124,7 @@
                                             <div class="dot"></div>
                                         </div>
                                     </div>
-                                    <p class="small text-muted">Diseño dinámico<br>Llantas de aleación 15"<br>Volante y palanca de cambio forrado en cuero</p>
+                                    <p class="small text-muted">Diseño dinámico<br>Llantas de aleación 15"<br>Volante y palanca de cambio forrado en cuero<br><br></p>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +135,7 @@
                         <div class="row-about bgc-light clearfix">
                             <div class="bg-about-1 bg-left-fluid bordered col-md-6"></div>
                             <div class="col-about-right col-md-6 col-md-offset-6">
-                                <h2 class="about-title">Controles ergonómicos y adecuados para cualquier situación</h2>
+                                <h2 class="about-title wow bounceIn">Controles ergonómicos y adecuados para cualquier situación</h2>
                                 <div class="col-about-content">
                                     <div class="row row-columns">
                                         <div class="column col-sm-6 col-md-12">
@@ -185,8 +180,8 @@
                         <div class="row-about bgc-light-md clearfix">
                             <div class="bg-about-2 bg-right-fluid col-md-6"></div>
                             <div class="col-about-left col-md-5 col-md-offset-1">
-                                <h2 class="about-title">Deslícese por el aire Navegue entre el tráfico</h2>
-                                <p>Las líneas sinuosas del All-New Rio ayudan a engañar al viento
+                                <h2 class="about-title wow bounceIn">Deslícese por el aire Navegue entre el tráfico</h2>
+                                <p class="wow bounceIn">Las líneas sinuosas del All-New Rio ayudan a engañar al viento
                                     aumentando la economía de combustible. Su manejo ágil lo convierte
                                     en un vehículo ideal para los giros rápidos y desvíos inesperados que
                                     suelen ser parte de la vida urbana. </p>
@@ -202,7 +197,7 @@
                     <div class="container">
                         <div class="row">
                             <header class="col-md-8 col-md-offset-2">
-                                <h2 class="text-white section-title">Más práctico que nunca</h2>
+                                <h2 class="text-white section-title wow rollIn">Más práctico que nunca</h2>
                                 <div class="spacer spacer-primary">
                                     <div class="line">
                                         <div class="dot"></div>
@@ -219,7 +214,7 @@
                                 <div class="col-md-8 col-md-offset-2">
                                     <div class="review-carousel dots-white js-review-carousel">
                                         <div class="review">
-                                            <p class="review-description">
+                                            <p class="review-description wow fadeIn" data-wow-delay="0.5s">
                                                 Ya sea que usted lo elija por la estética o la practicidad, el all-new Rio hace que
                                                 la versatilidad tenga un aspecto atractivo y ofrece una verdadera diversión
                                                 para todos con una profunda pasión por la conducción. Llévelo a todos los
@@ -228,6 +223,54 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="colores" class="prices text-center section">
+                    <div class="container">
+                        <div class="row">
+                            <header class="col-md-8 col-md-offset-2">
+                                <h2 class="section-title">Colores</h2>
+                                <div class="spacer spacer-primary">
+                                    <div class="line">
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                        <div class="dot"></div>
+                                    </div>
+                                </div>
+                                <div id="divColorRio">
+                                    <img src="img/kia-rio-blancoclaro.jpg" class="img-responsive">
+                                </div>
+                            </header>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-2 wow bounceIn">
+                                <a class="pointer cambiarColor" data-wow-delay="0.5s" data-color="blancoclaro" data-toggle="tooltip" data-placement="top" title="Blanco Claro"><img src="img/kia-rio-blancoclaro_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.1s">
+                                <a class="pointer cambiarColor" data-color="blancoperla" data-toggle="tooltip" data-placement="top" title="Nieve Blanca Perlada"><img src="img/kia-rio-blancoperla_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.2s">
+                                <a class="pointer cambiarColor" data-color="grissedoso" data-toggle="tooltip" data-placement="top" title="Plata Sedosa"><img src="img/kia-rio-grissedoso_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.3s">
+                                <a class="pointer cambiarColor" data-color="vinofrio" data-toggle="tooltip" data-placement="top" title="Vino Frío"><img src="img/kia-rio-vinofrio_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.4s">
+                                <a class="pointer cambiarColor" data-color="grisurbano" data-toggle="tooltip" data-placement="top" title="Gris Urbano"><img src="img/kia-rio-grisurbano_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.5s">
+                                <a class="pointer cambiarColor" data-color="rojo" data-toggle="tooltip" data-placement="top" title="Rojo Ardiente"><img src="img/kia-rio-rojo_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.6s">
+                                <a class="pointer cambiarColor" data-color="azul" data-toggle="tooltip" data-placement="top" title="Azul Eléctrico"><img src="img/kia-rio-azul_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.7s">
+                                <a class="pointer cambiarColor" data-color="azuloscuro" data-toggle="tooltip" data-placement="top" title="Azul Ahumado"><img src="img/kia-rio-azuloscuro_thumb.jpg" class="img-responsive"></a>
+                            </div>
+                            <div class="col-xs-2 wow bounceIn" data-wow-delay="0.8s">
+                                <a class="pointer cambiarColor" data-color="negro" data-toggle="tooltip" data-placement="top" title="Auroa Negra Perlada"><img src="img/kia-rio-negro_thumb.jpg" class="img-responsive"></a>
                             </div>
                         </div>
                     </div>
@@ -244,12 +287,11 @@
                                         <div class="dot"></div>
                                     </div>
                                 </div>
-                                <img src="img/kia-rio-rojo.png" class="img-responsive">
                             </header>
                         </div>
                         <div class="section-content">
                             <div class="row-price">
-                                <div class="col-price">
+                                <div class="col-price wow fadeIn">
                                     <div class="price-box">
                                         <div class="price-header">
                                             <h4 class="price-title">LX MT SEDAN</h4>
@@ -301,12 +343,14 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 15.600</a>
-                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            <div class="wow zoomIn">
+                                                <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 15.600</a>
+                                                <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-price">
+                                <div class="col-price wow fadeIn" data-wow-delay="0.2s">
                                     <div class="price-box">
                                         <div class="price-header">
                                             <h4 class="price-title">EX AT FULL SEDAN</h4>
@@ -356,12 +400,14 @@
                                                 <li class="especificaciones">&nbsp;</li>
                                                 <li class="especificaciones">&nbsp;</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 18.000</a>
-                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            <div class="wow zoomIn">
+                                                <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 18.000</a>
+                                                <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-price">
+                                <div class="col-price wow fadeIn" data-wow-delay="0.4s">
                                     <div class="price-box">
                                         <div class="price-header">
                                             <h4 class="price-title">EX AT LIMITED SEDAN</h4>
@@ -409,8 +455,10 @@
                                                 <li class="especificaciones">Faros delanteros halógenos de doble proyección</li>
                                                 <li class="especificaciones">Frenos ABS</li>
                                             </ul>
-                                            <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 19.200</a>
-                                            <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            <div class="wow zoomIn">
+                                                <a href="#" class="btn btn-light hvr-pulse-grow btnSizePrice">U$ 19.200</a>
+                                                <a href="#contacto" class="btn btn-light-vendedor hvr-pulse-grow">SOLICITE UN VENDEDOR</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -625,6 +673,41 @@
                     });
                     e.preventDefault(); // avoid to execute the actual submit of the form.
                 });
+                $(document).on("click", ".cambiarColor", function (e) {
+                    if (e.handled !== true) // This will prevent event triggering more then once
+                    {
+                        var url = "cambiarColor.php"
+                        var color = $(this).attr("data-color");
+                        //$('#divColorRio').html('<img src="img/kia-rio-' + color + '.jpg" class="img-responsive">');
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+                            data: {color: color}, // serializes the form's elements.
+                            dataType: "json",
+                            beforeSend: function () {
+                                // this is where we append a loading image
+                                $('#divColorRio').html('<div class="loading"><img src="img/loading.gif" alt="Cargando..." /></div>');
+                            },
+                            success: function (data)
+                            {
+                                $('#divColorRio').html(data);
+                                goToByScroll('divColorRio');
+                            }
+                        });
+                    }
+                    e.handled = true;
+                });
+                function goToByScroll(id) {
+                    // Remove "link" from the ID
+                    id = id.replace("link", "");
+                    // Scroll
+                    $('html,body').animate({
+                        scrollTop: $("#" + id).offset().top},
+                            'slow');
+                }
+                $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                })
             });
         </script>
     </body>

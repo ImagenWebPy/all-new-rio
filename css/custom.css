@@ -17,3 +17,5 @@
 .logoFooter {position: absolute; top: -33px; right: 20px;}
 .textFooter{ font-size: 9px; line-height: 1;}
 .copy { font-size: 12px;}
+.pointer{ cursor: pointer;}
+.separadorLogo {color: #fff; font-size: 16px; padding: 0px 5px;}
