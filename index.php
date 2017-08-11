@@ -147,6 +147,17 @@
                         </div>
                     </div>
                 </section>
+                <section>
+                    <div class="section-content">
+                        <div class="container">
+                            <div class="row row-columns">
+                                <div class="video-responsive wow zoomIn">
+                                    <iframe src="https://www.youtube.com/embed/B7qGYh2tX3k" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section id="about" class="about section pb-0">
                     <div class="section-content">
                         <div class="row-about bgc-light clearfix">
