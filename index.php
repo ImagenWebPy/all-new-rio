@@ -47,7 +47,7 @@
                         <a href="#home" class="brand js-target-scroll">
                             <img src="img/brand.png" alt="All-New-Rio" style="width: 70px;">
                             <span class="separadorLogo">|</span>
-                            <img src="img/Logo-All-New-RIO.png" alt="All-New-Rio" style="width: 70px;">
+                            <img src="img/logo-rio-temueve.png" alt="All-New-Rio" style="width: 75px;">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-collapse">
